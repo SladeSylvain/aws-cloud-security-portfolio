@@ -9,7 +9,7 @@ El objetivo principal es aislar capas de red críticas, automatizar el aprovisio
 
 ## 📐 Diagrama de la Arquitectura
 
-![Diagrama de Arquitectura AWS](docs/images/1778690242559.jpeg)
+![Diagrama de Arquitectura AWS](docs/images/1778690242804.jpg)
 *Diseño conceptual de la topología de red distribuida en múltiples zonas de disponibilidad con capas públicas y privadas.*
 
 ---
@@ -48,11 +48,11 @@ Se aplicó el principio de mínimo privilegio en el Security Group asignado a la
 ## 📸 Evidencia de Despliegue y Verificación
 
 ### 1. Mapa de Recursos de la VPC
-![Mapa de Recursos VPC](docs/images/1778690242575.jpeg)
+![Mapa de Recursos VPC](docs/images/177869024283f.jpg)
 *Visualización de la estructura lógica de subredes públicas, privadas y tablas de enrutamiento.*
 
 ### 2. Estado del Servidor EC2
-![Detalles de Instancia EC2](docs/images/1778690242605.jpeg)
+![Detalles de Instancia EC2](docs/images/1778690242821.jpg)
 *Instancia Web Server 1 desplegada correctamente en la subred pública con IP privada y pública asignada.*
 
 ### 3. Verificación de Conectividad SSH y Servicio Web
