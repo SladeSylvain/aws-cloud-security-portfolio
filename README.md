@@ -53,5 +53,5 @@ A continuación se detalla la documentación técnica de cada escenario implemen
 - **Formación:** Cloud Engineering (AWS) & Full Stack Development
 - **Ubicación:** Santiago, Chile
 - **Especialidad:** Infraestructura Cloud AWS, automatización de operaciones, desarrollo web y respuesta a incidentes (SecOps).
-- **Contacto:** [LinkedIn](https://www.linkedin.com/in/tu-perfil) | [alexander.carvajal.pizarro@gmail.com](mailto:alexander.carvajal.pizarro@gmail.com)**
+- **Contacto:** [LinkedIn](https://www.linkedin.com/in/tu-perfil) | [alexander.carvajal.pizarro@gmail.com](mailto:alexander.carvajal.pizarro@gmail.com)
 **
