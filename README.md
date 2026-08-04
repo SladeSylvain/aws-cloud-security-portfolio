@@ -7,6 +7,13 @@ El objetivo principal es aislar capas de red críticas, automatizar el aprovisio
 
 ---
 
+## 📐 Diagrama de la Arquitectura
+
+![Diagrama de Arquitectura AWS](docs/images/1778690242559.jpeg)
+*Diseño conceptual de la topología de red distribuida en múltiples zonas de disponibilidad con capas públicas y privadas.*
+
+---
+
 ## 🛠️ Arquitectura de Red y Topología
 
 La infraestructura está desplegada en la región `us-west-2` (Oregon) y cuenta con la siguiente topología:
@@ -21,7 +28,7 @@ La infraestructura está desplegada en la región `us-west-2` (Oregon) y cuenta 
   - `Private Subnet 2` (`10.0.3.0/24`) en `us-west-2b`.
 - **Gateways y Enrutamiento:**
   - **Internet Gateway (IGW):** Permite entrada/salida de tráfico público a subredes públicas.
-  - **NAT Gateway:** Permite salida segura a Internet para recursos en subredes privadas sin exponerlos a peticiones entrantes.
+  - **NAT Gateway:** Permite salida segura a Internet para recursos en subredes privadas.
 
 ---
 
@@ -34,23 +41,27 @@ La infraestructura está desplegada en la región `us-west-2` (Oregon) y cuenta 
 ### 2. Reglas de Firewall (Security Group)
 Se aplicó el principio de mínimo privilegio en el Security Group asignado a la EC2:
 - **Inbound HTTP (Puerto 80):** Permitido desde cualquier origen (`0.0.0.0/0`) para el tráfico web público.
-- **Inbound SSH (Puerto 22):** Restringido para administración remota segura mediante claves de llave.
+- **Inbound SSH (Puerto 22):** Restringido para administración remota segura.
 
 ---
 
 ## 📸 Evidencia de Despliegue y Verificación
 
-### 1. Verificación de Conectividad SSH y Servidor Web
-![SSH y Servidor Web](docs/images/ec2-ssh-verification.png)
-*Acceso mediante Terminal SSH e inspección de la página web servida mostrando la ID de instancia y Zona de Disponibilidad (`us-west-2a`).*
+### 1. Mapa de Recursos de la VPC
+![Mapa de Recursos VPC](docs/images/1778690242575.jpeg)
+*Visualización de la estructura lógica de subredes públicas, privadas y tablas de enrutamiento.*
 
-### 2. Mapa de Recursos de la VPC
-![VPC Resource Map](docs/images/vpc-resource-map.png)
-*Visualización de la estructura lógica de subredes públicas y privadas en el console de AWS.*
+### 2. Estado del Servidor EC2
+![Detalles de Instancia EC2](docs/images/1778690242605.jpeg)
+*Instancia Web Server 1 desplegada correctamente en la subred pública con IP privada y pública asignada.*
+
+### 3. Verificación de Conectividad SSH y Servicio Web
+![Prueba de Servicio Web y SSH](docs/images/1778690242897.jpeg)
+*Acceso SSH mediante consola e inspección de la página web activa respondiendo peticiones HTTP.*
 
 ---
 
 ## 👨‍💻 Autor
-**Alexader Carvajal**
+**Alexander Carvajal**
 - AWS Certified Cloud Practitioner
 - Graduado AWS re/Start
