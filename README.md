@@ -9,7 +9,7 @@ El objetivo principal es aislar capas de red críticas, automatizar el aprovisio
 
 ## 📐 Diagrama de la Arquitectura
 
-![Diagrama de Arquitectura AWS](docs/images/1778690242804.jpeg)
+![Diagrama de Arquitectura AWS](docs/images/1778690242804.jpg)
 *Diseño conceptual de la topología de red distribuida en múltiples zonas de disponibilidad con capas públicas y privadas.*
 
 ---
