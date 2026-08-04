@@ -46,9 +46,12 @@ A continuación se detalla la documentación técnica de cada escenario implemen
 
 ---
 
-## 👨‍💻 Sobre Mí
+**## 👨‍💻 Sobre Mí
 
-- **Alexander Carvajal**
-- **Formación:** Cloud Engineering & Full Stack Development
-- **Especialidad:** Infraestructura AWS, automatización de operaciones y respuesta a incidentes.
-- **Contacto:** [LinkedIn](#) | [Correo Electrónico](mailto:tu-email@ejemplo.com)
+
+- **Alexander Luis Carvajal Pizarro**
+- **Formación:** Cloud Engineering (AWS) & Full Stack Development
+- **Ubicación:** Santiago, Chile
+- **Especialidad:** Infraestructura Cloud AWS, automatización de operaciones, desarrollo web y respuesta a incidentes (SecOps).
+- **Contacto:** [LinkedIn](https://www.linkedin.com/in/tu-perfil) | [alexander.carvajal.pizarro@gmail.com](mailto:alexander.carvajal.pizarro@gmail.com)**
+**
