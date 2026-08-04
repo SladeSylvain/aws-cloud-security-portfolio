@@ -51,6 +51,6 @@ Se aplicó el principio de mínimo privilegio en el Security Group asignado a la
 ---
 
 ## 👨‍💻 Autor
-**[Tu Nombre Completo]**
+**Alexader Carvajal**
 - AWS Certified Cloud Practitioner
 - Graduado AWS re/Start
